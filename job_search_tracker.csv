@@ -1,1 +1,2 @@
-date,company,sector,role,role_type,channel,status,contact_person,fit_rating,notes,cv_file,cover_letter_file,source
+date,company,country,role,role_type,channel,status,deadline,contact_person,fit_rating,notes,cv_file,cover_letter_file,applied_on,source,internship_duration,eligibility_notes,commute_or_remote
+,,,,,,,,,,,,,,,,,,,,

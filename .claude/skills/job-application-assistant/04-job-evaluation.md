@@ -1,7 +1,5 @@
 # Job Evaluation Framework
 
-<!-- SETUP: Skill match areas and career goals are personalized by running /setup -->
-
 ## Scoring Dimensions
 
 Evaluate each job posting against these five dimensions:
@@ -16,12 +14,12 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Python, FastAPI, PyTorch, RAG / Knowledge Graphs, ASR/TTS pipelines, LaTeX automation, SQL (SQLite), Git, REST APIs, statistical methods (non-parametric scoring)
+**Moderate match areas:** TypeScript/JavaScript, Docker, React, Kubernetes (basic), PostgreSQL, Redis, Streamlit/Gradio
+**Weak match areas (flag, not exclude):** AWS/GCP cloud certifications (used Azure in workshops), formal CI/CD pipelines at production scale, Java/Scala enterprise stacks
 
 ### 2. Experience Match (0-100)
-Does work history align with what they're looking for?
+Does work history align with what they are looking for?
 
 | Score | Meaning |
 |-------|---------|
@@ -30,9 +28,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** agentic systems, voice AI, offline-first mobile, Python backend, data science research, LLM evaluation
+**Moderate:** frontend engineering, cloud-native SaaS, ML platform engineering, developer tooling
+**Entry-level (distinguish carefully):** large-scale enterprise systems, formal SRE, product management
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -52,6 +50,8 @@ Does the role and company culture match the behavioral profile?
 - Requires relocation: FAIL (deal-breaker)
 - Frequent international travel: FLAG (discuss with user)
 
+**Non-negotiable:** Fully remote roles only. Kenya / East Africa timezone preferred unless flexible async schedule offered.
+
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
 
@@ -59,32 +59,29 @@ Does this role advance career goals and contain tasks that energize?
 |-------|---------|
 | 80-100 | Strongly aligned with career direction, clear growth path |
 | 60-79 | Good role but only partially aligned with long-term goals |
-| 40-59 | Decent job but doesn't build toward career goals |
+| 40-59 | Decent job but does not build toward career goals |
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Build a recognized portfolio of agentic / voice / offline-first AI systems before graduating (December 2026)
+- Transition from founder-engineer of Hadhi/Cohusdex into a product or infrastructure AI role at a company building the same stack
+- Contribute to open-source agent frameworks (Hermes, Paperclip, LangGraph) professionally
 
-**Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+**Motivation filter:** Evaluate not just whether you can do the tasks, but whether the tasks will energize you. Consider:
+- Tasks that energize: designing multi-agent architectures; building voice interfaces for underserved users; writing evaluation harnesses that make models better; shipping Flutter + Python full-stack features; mentoring peers
+- Tasks that drain: managing large stakeholder expectations without engineering authority; pure documentation with no shipping; legacy-code maintenance with no design input
+- Non-task factors: psychological safety, async culture, access to direct engineering leadership, time to contribute to open source
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security:** Seeking income stability after December 2026 graduation; internships and entry-level full-time roles both welcome if remote
+- **Flexibility:** Classes run part-time December 2025 – graduation; need async-first culture
+- **Professional development:** Want roles that will accelerate toward: (a) agent infrastructure, (b) voice AI, or (c) AI-for-finance in informal markets
 
 ### 6. Salary Benchmark (Optional)
-
-If the salary lookup tool is configured (`salary_data.json` exists), look up the company:
+If the salary lookup tool is configured (salary_data.json exists), look up the company:
 ```
 python salary_lookup.py "<Company Name>" --json
 ```
-
-If a city is known from the posting, add `--city "<City>"` to narrow results.
 
 Present findings as:
 ```
@@ -125,11 +122,11 @@ Present the evaluation as:
 - [bullet points]
 
 ### Recommendation
-[1-2 sentences: apply/skip/apply with caveats]
+[1-2 sentences: apply / skip / apply with caveats]
 
 ### Company Research Checklist
 - [ ] Checked company website (mission, values, recent news)
-- [ ] Checked review sites (Glassdoor, Jobindex, etc.)
+- [ ] Checked review sites (Glassdoor, etc.)
 - [ ] Checked LinkedIn for team size, recent hires, connections
 - [ ] Checked media for restructuring, growth, or workplace issues
 - [ ] Identified network contacts who may know the team/manager
@@ -152,13 +149,13 @@ Present the evaluation as:
 
 ## Pre-Application: Call the Employer (Best Practice)
 
-Before writing the application, consider whether the candidate should call the contact person listed in the posting. **Only call if there are substantive questions** - never call just to "be remembered."
+Before writing the application, consider whether the candidate should call the contact person listed in the posting. Only call if there are substantive questions. Never call just to "be remembered."
 
 ### When to Suggest Calling
 - The posting has unclear or ambiguous requirements
-- It's unclear which competencies are essential vs. nice-to-have
+- It is unclear which competencies are essential vs. nice-to-have
 - The role description is vague about day-to-day tasks
-- There's a named contact person who invites questions
+- There is a named contact person who invites questions
 
 ### Good Questions to Ask
 - "What are the primary challenges in this role?"
@@ -168,6 +165,6 @@ Before writing the application, consider whether the candidate should call the c
 
 ### Rules for the Call
 - Prepare a 30-second "elevator pitch" about your background in case they ask
-- The call's purpose is **gathering information**, not delivering a pitch
-- Take notes - use what you learn to tailor the application
-- Reference the conversation naturally in the cover letter ("After speaking with [name], I was especially drawn to...")
+- The call's purpose is gathering information, not delivering a pitch
+- Take notes — use what you learn to tailor the application
+- Reference the conversation naturally in the cover letter
