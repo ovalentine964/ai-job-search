@@ -8,14 +8,17 @@
 - **LinkedIn:** https://linkedin.com/in/valentine-owuor
 - **GitHub:** https://github.com/valentinus295
 - **Languages:** English (native), Kiswahili (fluent), Luo (conversational — used in Hadhi ASR/TTS)
-- **Status:** Final-year student (graduates December 4, 2026) — BSc Economics and Statistics; actively seeking internships and full-time roles
-- **Constraints:** Fully remote only; Kenya / East Africa timezone
+- **Status:** Final-year student (graduates December 4, 2026) — BSc Economics and Statistics (MMUST, Migori); awaiting graduation; actively seeking paid internships and eligible full-time roles
+- **Eligibility constraints:** Must be a genuine internship or eligible full-time role. Strictly reject non-internship roles: full-time permanent, contract (non-intern), senior roles, graduate programs without an explicit internship track, fellowships that are not internship-equivalent.
+- **Compensation:** Paid only (stipend, allowance, honorarium, salary, or "paid internship"). Reject unpaid, voluntary, no-stipend, or zero-compensation roles. Non-negotiable.
+- **Location:** Kenya, fully remote globally, or hybrid with ≤2 in-person days/week. Reject roles requiring relocation outside Kenya/East Africa without explicit employer relocation/visa/work permit/sponsorship.
+- **Academic standing:** 2nd Class Lower Division (55 points, 45 units Economics/Statistics). All internship applications must verify this eligibility is acceptable to the employer.
 
 ## Education
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
-| BSc Computer Science | 2022 – Dec 2026 | Maasai Mara University, Migori, Kenya | voice AI, offline-first systems, agentic architectures, graph neural networks, LaTeX document automation |
+| BSc Economics and Statistics | 2022 – Dec 2026 | Masinde Muliro University of Science and Technology (MMUST), Migori, Kenya | econometrics, quantitative analysis, economic modeling, statistics, applied data analysis |
 
 ## Professional Experience
 
@@ -28,8 +31,8 @@
 - Maintain public portfolio at github.com/valentinus295 (SalarySync MVP, skill-assessment platform, resume_rank tool)
 - Core Hadhi stack: OpenClaw + Hermes + Paperclip + RAG/Knowledge Graph + LaTeX (PDF reports)
 
-### Research Assistant — Computer Science, Maasai Mara University
-*2024 – 2025* | Migori, Kenya
+### Research Assistant — Computer Science Department, MMUST
+*(2024 – 2025)* — Migori, Kenya
 - Built a **metabolic pathway predictor** using Graph Neural Networks (PyTorch, PyTorch Geometric) via a 12-week research sprint; reduced prediction error by 60% vs. manual lab workflows; adopted as standard tool by the group
 - Evaluated **WebSearch-based evaluation pipelines** for LLMs within an lm-evaluation-harness framework
 - Co-authored a NeurIPS 2025 AI4Science Workshop paper; contributed open-source evaluation code
@@ -75,7 +78,7 @@
 - Top Student Ambassador, **Microsoft Learn Student Ambassadors** — East Africa Region (2024)
 
 ## References
-- Dr. [Name pending], [Title], Maasai Mara University Computer Science Department (valentineowuor12@gmail.com)
+- Dr. [Name pending], [Title], MMUST Department of Economics/Statistics or Computer Science Department (valentineowuor12@gmail.com)
 - [Peer collaborator name], Cohusdex / Hadhi project team (pending)
 - [Microsoft Ambassador Program lead] (pending)
 
