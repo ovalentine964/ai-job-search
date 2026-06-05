@@ -37,10 +37,11 @@ Optional arguments:
 
 Run this filter BEFORE adding a result to seen_jobs.json. Only evaluate fit for results that pass eligibility.
 
-**PASS (continue to full evaluation) ONLY IF ALL conditions are met:**
-- Role type is one of: `intern`, `internship`, `graduate trainee`, `fellowship`, `placement`, `student program`
+**PASS ONLY IF ALL conditions are met:**
 - **PAID**: the posting explicitly states stipend, salary, allowance, honorarium, or "paid internship". REJECT if labelled "unpaid", "voluntary", "no stipend", or has zero compensation mentioned. Paid-only is non-negotiable.
-- Location: Kenya, Remote, OR hybrid with <=2 in-person days/week
+- **DOMAIN ALIGNED**: the role is in AI/ML, voice AI, agentic systems, data science, research engineering, software engineering (Python/Flutter/full-stack), or developer tooling. REJECT if the role is outside tech (e.g. marketing, sales, HR, general business).
+- Role type: intern, internship, graduate trainee, fellowship, placement, student program
+- Location: Kenya, Remote, OR hybrid with ≤2 in-person days/week
 - Deadline is in the future or cannot be determined
 - Posted within the last 14 days (or date unknown but deadline open)
 - Does NOT require 3+ years of production experience
@@ -49,6 +50,7 @@ Run this filter BEFORE adding a result to seen_jobs.json. Only evaluate fit for 
 **REJECT (do not add to seen_jobs, skip entirely):**
 - Full-time permanent role without an explicit internship track
 - **Unpaid / voluntary / no stipend mentioned** (paid-only: this is non-negotiable)
+- **Domain mismatch**: role is outside AI/ML/voice/agentic/data science/software engineering (e.g. marketing, sales, HR, general business)
 - Requires completed degree (not compatible with "graduating Dec 2026")
 - Deadline has passed
 - Requires relocation outside Kenya/East Africa AND is not fully remote

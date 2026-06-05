@@ -78,6 +78,7 @@ Andela "fELLowship" 2026 Kenya
 ## Eligibility Filter (Apply When Evaluating Each Result)
 **PASS ONLY IF ALL conditions are met:**
 - **PAID**: explicitly labelled as paid, stipend, allowance, honorarium, salary, or "paid internship". REJECT if labelled "unpaid", "voluntary", "no stipend", or has zero compensation mentioned. Paid-only is non-negotiable.
+- **DOMAIN ALIGNED**: the role is in AI/ML, voice AI, agentic systems, data science, research engineering, software engineering (Python/Flutter/full-stack), or developer tooling. REJECT if the role is outside tech (e.g. marketing, sales, HR, business operations, administration).
 - Role type: intern, internship, graduate trainee, fellowship, placement, student program
 - Location: Kenya, Remote, OR hybrid with ≤2 in-person days/week
 
