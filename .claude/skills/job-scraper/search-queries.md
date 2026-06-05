@@ -76,19 +76,10 @@ Andela "fELLowship" 2026 Kenya
 ```
 
 ## Eligibility Filter (Apply When Evaluating Each Result)
-**Filter OUT if:**
-- Full-time permanent role (not an internship/graduate trainee)
-- Contract role excluding internships
-- Requires relocation outside Kenya/East Africa and is NOT fully remote
-- Deadline has passed (current month is June 2026)
-- Requires degree already completed (you graduate December 2026)
-- Requires 3+ years of production experience (entry-level only for final-year students)
-
-**Filter IN if:**
-- Explicitly labelled "intern", "internship", "graduate trainee", "fellowship", "placement"
-- Remote-first with async-friendly hours
-- Deadline current month or any future month from discovery date
-- Accepts final-year students graduating late 2026
+**PASS ONLY IF ALL conditions are met:**
+- **PAID**: explicitly labelled as paid, stipend, allowance, honorarium, salary, or "paid internship". REJECT if labelled "unpaid", "voluntary", "no stipend", or has zero compensation mentioned. Paid-only is non-negotiable.
+- Role type: intern, internship, graduate trainee, fellowship, placement, student program
+- Location: Kenya, Remote, OR hybrid with ≤2 in-person days/week
 
 ## Date Filter
 Only include jobs posted within the last 14 days, or with an application deadline that has not yet passed. If a posting date cannot be determined, include it but flag as "date unknown".
