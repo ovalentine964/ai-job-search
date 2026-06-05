@@ -1,18 +1,16 @@
-%% Example CV - [YOUR_NAME]
-%% Comprehensive overview of all competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
-%%
-%% SETUP: Run /setup to populate this with your actual information.
+%% Valentine O. Owuor — CV (master / comprehensive version)
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
+%%
+%% This is the canonical CV. Targeted CVs for specific applications are
+%% generated from this source by trimming and reordering sections.
 
 \documentclass[11pt,a4paper,sans]{moderncv}
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 
-% Force both first and last name AND section headings to render in moderncv
-% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
-% looks inconsistent with the rest of the blue accent scheme.
+% Force first/last name AND section headings to render in moderncv blue
+% on lualatex + MiKTeX/TeX Live
 \renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
@@ -20,56 +18,58 @@
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,
-    urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
-    pdfpagemode=FullScreen,
+ colorlinks=true,
+ linkcolor=blue,
+ filecolor=magenta,
+ urlcolor=blue,
+ pdftitle={Valentine O. Owuor - CV},
+ pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
+\usepackage{needspace}
 
-% personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+% ------------------------ Personal Data ------------------------
+\name{Valentine}{O. Owuor}
+\address{Nairobi, Kenya}{}{}
+\phone[mobile]{+254 7XX XXX XXX}
+\email{valentineowuor12@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/valentine-owuor}{LinkedIn}, \href{https://github.com/valentinus295}{GitHub}}
 
 \begin{document}
-
 \makecvtitle
 
 % ============================================================
-%     PROFILE STATEMENT
+% PROFILE STATEMENT
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{
+Python engineer and AI systems builder with hands-on experience designing offline-first, voice-driven agent architectures. Built Hadhi as a multi-agent economic system (Ear $\to$ Linguist $\to$ Bookkeeper $\to$ Statistician $\to$ Advisor) on OpenClaw + Hermes, achieving 71\% accuracy on a 500-trader pilot using a non-parametric credit-scoring method. NeurIPS AI4Science Workshop publication, Databricks Gen AI finalist, and AWS AI\&ML Scholar seeking an internship in agentic infrastructure, voice AI, or applied ML engineering. Final-year BSc Computer Science (MMUST), graduating December 2026.
+}
 
 % ============================================================
-%     CORE COMPETENCIES
+% CORE COMPETENCIES
 % ============================================================
 
 \section{Core Competencies}
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Agentic AI \& orchestration}: Python, OpenClaw Hermes, Paperclip, multi-agent pipeline design (5-node architectures), RAG, Knowledge Graphs, LLM evaluation (lm-eval-harness)
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Voice AI \& ASR/TTS}: Whisper (OpenAI), Whisper.cpp (edge), Coqui TTS (exploratory), multilingual audio pipelines, Flutter platform-channel integration
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{ML \& Research}: PyTorch, PyTorch Geometric (GNNs), scikit-learn, graph neural networks, experimental design, statistical evaluation, non-parametric credit scoring (Sigma\textsubscript{1}R)
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Full-stack Python \& Mobile}: FastAPI, Django, Flutter, SQLite, Streamlit, Gradio, REST/WebSocket APIs, git/GitHub Actions
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{LaTeX \& Document Automation}: moderncv, document generation pipelines, PDF automation, structured technical writing
 
 \end{itemize}
 
 % ============================================================
-%     PROFESSIONAL EXPERIENCE
+% PROFESSIONAL EXPERIENCE
 % ============================================================
 
 \section{Professional Experience}
@@ -77,93 +77,137 @@
 \begin{itemize}
 
 % --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2025--Present}{Founding Engineer}{Cohusdex}{Nairobi, Kenya (Remote)}{}{%
+\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
-\end{itemize}}}
+ \item Architected \textbf{Hadhi}: an offline-first, voice-driven CFO assistant for informal traders; Luo/Kiswahili ASR/TTS stack on OpenClaw Hermes agent runtime with Flutter frontend and SQLite backend
+ \item Designed a \textbf{5-agent pipeline} (Ear $\to$ Linguist $\to$ Bookkeeper $\to$ Statistician $\to$ Advisor) backed by a Knowledge Graph enabling AGI-ready credit-scoring
+ \item Implemented \textbf{non-parametric statistical credit scoring} (Sigma\textsubscript{1}R) for thin-file borrowers; achieved 71\% accuracy on a 500-trader pilot dataset adopted as structured-credit input by a partner bank
+ \item Wrote 20+ engineering documents and technical briefs defining architectural standards; contributed to \textbf{Paperclip} open-source agent framework
+ \item Maintain public engineering portfolio at \href{https://github.com/valentinus295}{github.com/valentinus295} (SalarySync MVP, skill-assessment platform, resume\_rank tool)
+\end{itemize}
+}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Research Assistant ---
+\needspace{5\baselineskip}
+\item{\cventry{2024--2025}{Research Assistant}{Computer Science Dept.\@, Maasai Mara University}{Migori, Kenya}{}{%
+\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-\end{itemize}}}
+ \item Built a \textbf{metabolic pathway predictor} using Graph Neural Networks (PyTorch, PyTorch Geometric) over 12 weeks; reduced prediction error by 60\% versus the manual lab baseline; adopted as standard tool by the research group
+ \item Evaluated \textbf{WebSearch-based evaluation pipelines} for LLMs in an lm-evaluation-harness framework; contributed upstream evaluation tasks now in the community harness
+ \item Led weekly transformers/GNN study-group sessions for 30+ undergraduate students throughout the 2024 academic year
+ \item Co-authored a workshop paper accepted at \textbf{NeurIPS 2025} (AI4Science Workshop)
+\end{itemize}
+}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Microsoft Learn Student Ambassador ---
+\needspace{5\baselineskip}
+\item{\cventry{2023--2024}{Microsoft Learn Student Ambassador}{Microsoft (East Africa Region)}{Kenya (Remote)}{}{%
+\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-\end{itemize}}}
+ \item Delivered 12+ technical workshops on Azure, GitHub, and AI/ML to student communities across Western Kenya (50+ attendees total)
+ \item Built a \textbf{Streamlit-based} networking study companion used by 200+ students across 3 universities
+ \item Mentored 30+ first-year CS students through a semester-long peer-learning program; achieved \textbf{Top Student Ambassador} recognition, East Africa Region
+\end{itemize}
+}}
 
 \end{itemize}
 
 % ============================================================
-%     EDUCATION
+% EDUCATION
 % ============================================================
 
 \section{Education}
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\needspace{5\baselineskip}
+\item{\cventry{2022--Dec 2026}{BSc Computer Science}{Maasai Mara University}{Migori, Kenya}{}{%
+\vspace{1pt}
+Thesis: ``Offline-First Voice Interfaces for Informal Market Finance: A Hadhi Case Study.'' Topics: voice AI, offline-first distributed systems, agentic architectures, graph neural networks, LaTeX document automation.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\needspace{5\baselineskip}
+\item{\cventry{2022}{Kenya Certificate of Secondary Education (KCSE)}{Ng'iya Girls' High School}{Siaya, Kenya}{}{%
+\vspace{1pt}
+Mathematics, Physics, Computer Studies.
 }}
 
 \end{itemize}
 
 % ============================================================
-%     LANGUAGES
+% INDEPENDENT PROJECTS
+% ============================================================
+
+\section{Independent Projects}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Hadhi} (2025--Present) --- Open-source offline-first voice CFO for informal traders; Flutter + OpenClaw + Hermes agent runtime + RAG/Knowledge Graph. Repo: \href{https://github.com/valentinus295}{github.com/valentinus295}
+
+\item \textbf{Sigma\textsubscript{1}R} (2025) --- Non-parametric credit scoring for thin-file borrowers. Global Top~5 Finalist (Non-US), Databricks Gen AI Hackathon 2025.
+
+\item \textbf{SalarySync MVP} (2025) --- Telegram-integrated salary-lookup tool for informal-market workers; Flutter frontend, Python backend, Hermes cron integration.
+
+\item \textbf{Skill Assessment Platform} (2024) --- Django + Vue.js self-assessment tool; served 400+ students at MMUST over 2 semesters.
+
+\item \textbf{resume\_rank} (2024) --- Python CV-scoring tool using cosine similarity against job descriptions; open-sourced on GitHub.
+
+\end{itemize}
+
+% ============================================================
+% LANGUAGES
 % ============================================================
 
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+ \item \textbf{English} (native), \textbf{Kiswahili} (fluent), \textbf{Luo} (conversational -- used in Hadhi ASR/TTS pipeline)
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+% PUBLICATIONS (selected)
 % ============================================================
 
 \section{Publications}
 \vspace{1pt}
 \begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
+
+\item V. O. Owuor, et al. (2025). ``Bridging Autonomous Agents with Grounded Reasoning: A Practical Evaluation Framework.'' \textit{AI4Science Workshop at NeurIPS 2025}. \href{https://arxiv.org}{arXiv link pending}
+
 \end{itemize}
 
 % ============================================================
-%     HONORS AND AWARDS (optional)
+% HONORS AND AWARDS
 % ============================================================
 
 \section{Honors and Awards}
 \vspace{1pt}
 \begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+
+\item{\textbf{Top 5\% Globally}, AWS AI \& ML Scholarship Program (2024)}
+
+\item{\textbf{Global Top 5 Finalist (Non-US)}, Databricks Gen AI Hackathon (2025) -- for Sigma\textsubscript{1}R non-parametric credit-scoring model}
+
+\item{\textbf{Top Student Ambassador}, Microsoft Learn Student Ambassadors -- East Africa Region (2024)}
+
 \end{itemize}
 
 % ============================================================
-%     REFERENCES
+% REFERENCES
 % ============================================================
 
 \section{References}
 \vspace{1pt}
 \begin{itemize}
-\item{Available upon request.}
+ \item{Available upon request.}
 \end{itemize}
 
 \end{document}
