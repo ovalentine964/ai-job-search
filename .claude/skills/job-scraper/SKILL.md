@@ -7,7 +7,7 @@
 ---
 
 ## Mission
-Find 2026 internships in AI, ML, voice AI, agentic systems, and software engineering that are compatible with a final-year BSc CS student graduating December 2026, Kenya-based, open to fully remote roles. Filter aggressively: this repo only wants internships.
+Find 2026 internships in AI, ML, voice AI, agentic systems, quantitative analytics, and software engineering that are compatible with a final-year student graduating December 4, 2026. Background: BSc Economics and Statistics (quantitative, not strictly CS). Kenya-based, but open to fully remote roles globally and to sponsored relocation when explicitly offered. Filter aggressively: this repo only wants internships.
 
 ## Invocation
 
@@ -39,13 +39,16 @@ Run this filter BEFORE adding a result to seen_jobs.json. Only evaluate fit for 
 
 **PASS ONLY IF ALL conditions are met:**
 - **PAID**: the posting explicitly states stipend, salary, allowance, honorarium, or "paid internship". REJECT if labelled "unpaid", "voluntary", "no stipend", or has zero compensation mentioned. Paid-only is non-negotiable.
-- **DOMAIN ALIGNED**: the role is in AI/ML, voice AI, agentic systems, data science, research engineering, software engineering (Python/Flutter/full-stack), or developer tooling. REJECT if the role is outside tech (e.g. marketing, sales, HR, general business).
+- **DOMAIN ALIGNED**: the role is in AI/ML, quantitative analytics, applied science, product/technical analytics, economic data analysis, voice AI, agentic systems, data science, research engineering, software engineering (Python/Flutter/full-stack), or developer tooling.
+  Accept quantitative research, econometrics, customer science, behavioral analytics, measurement science, risk/data analytics, pricing science, and similar roles built on inferential/statistical + code.
+  Accept research or product roles that lean on Economics/Statistics as primary value-add (applied ML, analytics science, inference/measurement).
+  REJECT only if the role is clearly non-tech and non-quantitative (e.g. pure marketing, sales, HR, administration, non-technical finance ops, ESL/teaching, general support).
 - Role type: intern, internship, graduate trainee, fellowship, placement, student program
-- Location: Kenya, Remote, OR hybrid with ≤2 in-person days/week
+- Location: Kenya/your home country; accept fully remote roles from anywhere globally; accept outside-Kenya roles only if relocation/visa/work permit sponsorship is explicitly offered
 - Deadline is in the future or cannot be determined
 - Posted within the last 14 days (or date unknown but deadline open)
 - Does NOT require 3+ years of production experience
-- Accepts final-year students (mention of Class of 2026, graduating Dec 2026, or no degree-completion requirement)
+- Accepts final-year students (mention of Class of 2026, graduating December 4, 2026, or no degree-completion requirement)
 
 **REJECT (do not add to seen_jobs, skip entirely):**
 - Full-time permanent role without an explicit internship track

@@ -8,7 +8,7 @@
 - **LinkedIn:** https://linkedin.com/in/valentine-owuor
 - **GitHub:** https://github.com/valentinus295
 - **Languages:** English (native), Kiswahili (fluent), Luo (conversational — used in Hadhi ASR/TTS)
-- **Status:** Final-year BSc Computer Science student (graduates December 2026); actively seeking internships and full-time roles
+- **Status:** Final-year student (graduates December 4, 2026) — BSc Economics and Statistics; actively seeking internships and full-time roles
 - **Constraints:** Fully remote only; Kenya / East Africa timezone
 
 ## Education

@@ -23,7 +23,9 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - **GitHub:** https://github.com/valentinus295
 
 ### Education
-- **BSc in Computer Science** (2022-2026) - Maasai Mara University
+- **BSc in Economics and Statistics** (2022-2026) — Maasai Mara University, Migori, Kenya
+- Expected graduation: **December 4, 2026**
+- Thesis focus: quant/statistical methods for economic applications; interdisciplinary questions at the intersection of AI, finance, and informal markets
   - Thesis: "Offline-First Voice Interfaces for Informal Market Finance: A Hadhi Case Study"
   - Topics: voice AI, offline-first distributed systems, agentic architectures, LaTeX document generation
 
